@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'gotham';
+    src: url('assets/fonts/gotham/gotham-black-webfont.woff2') format('woff2'),
+         url('assets/fonts/gotham/gotham-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+h1 {
+    font-family: gotham;
+    font-weight: 900;
+}

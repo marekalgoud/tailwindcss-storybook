@@ -1,0 +1,86 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="General/Elements/Forms" />
+
+
+# Formulaire
+
+group same type of content with fieldset
+
+<Preview>
+  <fieldset>
+    <legend>legend</legend>
+  </fieldset>
+</Preview>
+
+## Input
+
+### Text
+<Preview>
+  <div>
+    <label for="input-text">text :</label>
+    <input id="input-text" type="text" placeholder="text" />
+  </div>
+</Preview>
+
+### Number
+<Preview>
+  <div>
+    <label for="input-number">number :</label>
+    <input id="input-number" type="number" placeholder="123" />
+  </div>
+</Preview>
+
+### Email
+<Preview>
+  <div>
+    <label for="input-email">email :</label>
+    <input id="input-email" type="email" placeholder="prenom.nom@exemple.fr" />
+  </div>
+</Preview>
+
+### long text
+<Preview>
+  <div>
+    <label for="input-message">long text:</label>
+    <textarea id="input-message"></textarea>
+  </div>
+</Preview>
+
+
+### File
+<Preview>
+  <div>
+    <label for="input-file">File :</label>
+    <input id="input-file" type="file" />
+  </div>
+</Preview>
+
+### Checkboxes
+<Preview>
+  <div>
+    <input type="checkbox" id="edit-checkbox" name="checkbox" value="1" />
+    <label for="edit-checkbox">Checkbox</label>
+  </div>
+</Preview>
+
+### Radio
+<Preview>
+  <div>
+    <input type="radio" id="edit-radio" name="radio" value="1" />
+    <label for="edit-radio">radio</label>
+  </div>
+</Preview>
+
+### Select
+<Preview>
+  <div>
+    <label for="edit-select">select :</label>
+    <select id="edit-select" name="experience">
+      <option value="" selected="selected">- select -</option>
+      <option value="1">Lorem ipsum dolor sit amet</option>
+      <option value="2">Aliquam augue</option>
+      <option value="3">Duis tristique elit</option>
+    </select>
+  </div>
+</Preview>
